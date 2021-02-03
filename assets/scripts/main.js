@@ -1,6 +1,8 @@
 // main.js
 
 // TODO
+// Yijie Ruan
+// A15857392
 
 var audio = document.getElementById("horn-sound");     //the audio
 var honkButton = document.getElementById("honk-btn");    //the honk button that clicks
