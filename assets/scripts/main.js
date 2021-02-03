@@ -13,10 +13,10 @@ function reset(){
     if (audio.volume >= .67){
         volumeIcon.src = "./assets/media/icons/volume-level-3.svg";
     }
-    else if(audio.volume >.33){
+    else if(audio.volume >=.34){
         volumeIcon.src = "./assets/media/icons/volume-level-2.svg";
     }
-    else if(audio.volume > 0 ){
+    else if(audio.volume >= 0.01 ){
         volumeIcon.src = "./assets/media/icons/volume-level-1.svg";
     }
     else{
